@@ -1,1 +1,3 @@
 # Mission-to-Mars
+
+The purpose of this analysis was to add more features to Robin's web app. Specifically, she wanted to add full resolution images of mars hemispheres. These images are placed on the web app below the Mars Facts table. We had to scrape the titles and full resolution images, store it in a Mongo database and display on the web app with flask and bootstrap. The customizations added with bootstrap are: Style to the button, and centered the mars facts table title. Additionally, the web app can be viewed easily on an xs mobile device. I have removed the image urls from the web app, but the code to display them is commented out in the index.html file.
